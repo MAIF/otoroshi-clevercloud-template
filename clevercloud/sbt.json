@@ -1,0 +1,5 @@
+{
+  "deploy": {
+    "goal": "-Dconfig.file=./conf/prod.conf -Dlogger.file=./conf/prod.xml"
+  }
+}
