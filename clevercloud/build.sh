@@ -33,6 +33,8 @@ function build_ui {
 function cloning_sources {
 	echo "Gloning sources from OSS repo"
 	git clone https://github.com/MAIF/otoroshi.git otoroshi-sources --depth=1
+	cd otoroshi-sources
+	git checkout 0f8ecd3a1bef52b74bddbfb9565bbc49de15aaed
 }
 
 function moving_sources {
